@@ -20,10 +20,12 @@ void App::Save() {
 
 void App::Load() {
     std::string storagePath = "./data";
-    for (const auto & entry : directory_iterator(storagePath)) {
-        std::string dbName = entry.path().stem().string();
-        databases.push_back(new Database(dbName));
-    } 
+    if (exists(storagePath)) {
+        for (const auto& entry : directory_iterator(storagePath)) {
+            std::string dbName = entry.path().stem().string();
+            databases.push_back(new Database(dbName));
+        }
+    }
 }
 
 void App::CreateDatabase(std::string name) {
