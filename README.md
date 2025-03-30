@@ -1,4 +1,5 @@
-I created a database, because I wanted to learn about tree structures.  
+A selfmade database implemented in C++.  
+Uses a tree based storage structure for quick lookup.  
 
 | Commands | Explanation |  
 | --- | --- |

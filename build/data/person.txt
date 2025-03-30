@@ -1,9 +1,9 @@
 person;4;6
 name;password;email;age
+Kasimir;gutespassword;kasimir3@gmail;45
 Martin;1234;martinschneider22@gmx.net;20
+Mark;56452;mark@gmail;33
 Egon;abcd;egon@gmail;55
 Hildegard;htrvg7;hilde22@gmx.net;89
-Mark;56452;mark@gmail;33
 David;dvreed;dave@gmail;25
-Kasimir;gutespassword;kasimir3@gmail;45
 -

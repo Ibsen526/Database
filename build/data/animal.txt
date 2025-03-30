@@ -1,10 +1,10 @@
-species;2;2
+species;2;4
 name;attributes
-cat;hairy,evil
 dog;loyal,cute
+cat;hairy,evil
 -
 dogs;2;2
 name;age
-Hund1;3
 Hund2;2
+Hund1;3
 -
